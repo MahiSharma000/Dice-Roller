@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         }
          iv.animate().apply {
-             duration=1000//fade out
+             duration=1000
              //alpha(0f)
              rotationYBy(360f)
              withEndAction{
